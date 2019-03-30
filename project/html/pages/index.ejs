@@ -20,7 +20,19 @@
   </button>
 
   <div id="doge-image"/>
-
+  
+ <form action="/action_page.php">
+    Post Title:<br>
+    <input type="text" id="post-title"><br>
+    Post Body:<br>
+    <input type="text" id="post-body"><br><br>
+    <button class="btn btn-default" type="button" onclick="handleMessageFormSubmit()">
+      Save it
+    </button>
+    <button class="btn btn-default" type="button" id:"login-button" onclick="toggleSignIn()">
+      Log in 
+    </button>
+  </form>
 </body>
 
 </html>
