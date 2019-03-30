@@ -26,12 +26,11 @@
 
 <!-- then our app's own js file -->
 <script src="js/main.js"></script>
-
 <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyAua5UXm1D58W4H8fAw8yZjWpq6jV7Rbrs",
+    apiKey: "``<%= process.env.API_KEY %>``",
     authDomain: "datahub-fd92e.firebaseapp.com",
     databaseURL: "https://datahub-fd92e.firebaseio.com",
     projectId: "datahub-fd92e",
